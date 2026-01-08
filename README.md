@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Overview
-This repository contains the complete set of lecture slides (14 chapters) for a course in Monetary Economics. We are making the **LaTeX source code** public to allow instructors and students to adapt, edit, and reorganize the material for their own educational use.
+This repository contains the complete set of lecture slides (14 chapters) for courses in Monetary Economics. We are making the **LaTeX source code** public to allow instructors and students to adapt, edit, and reorganize the material for their own educational use.
 
 ## 🛠 Technical Requirements
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure. The project depends on the following components:
