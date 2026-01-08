@@ -18,29 +18,31 @@ To compile the slides and ensure all content renders correctly, you must downloa
 
 ## 📂 Content
 
+The material is organized into 14 chapters. Click the links below to access the **LaTeX source code** for each chapter:
+
 ### Part I: Currency and Money
-* **Chapter 1: The Value of Currency**
-* **Chapter 2: Cash as a Medium of Exchange**
-* **Chapter 3: Central Bank Digital Currency**
-* **Chapter 4: Private Money**
+* [Chapter 1: The Value of Currency](./code/Chapter_01.tex)
+* [Chapter 2: Cash as a Medium of Exchange](./code/Chapter_02.tex)
+* [Chapter 3: Central Bank Digital Currency](./code/Chapter_03.tex)
+* [Chapter 4: Private Money](./code/Chapter_04.tex)
 
 ### Part II: Stabilization Policies
-* **Chapter 5: The Benchmark New Keynesian Model**
-* **Chapter 6: An AS-AD Graphical Analysis**
-* **Chapter 7: Inflation Targeting as an Optimal Policy**
-* **Chapter 8: NK Model with a Banking Sector**
+* [Chapter 5: The Benchmark New Keynesian Model](./code/Chapter_05.tex)
+* [Chapter 6: An AS-AD Graphical Analysis](./code/Chapter_06.tex)
+* [Chapter 7: Inflation Targeting as an Optimal Policy](./code/Chapter_07.tex)
+* [Chapter 8: NK Model with a Banking Sector](./code/Chapter_08.tex)
 
 ### Part III: Crisis Models
-* **Chapter 9: Liquidity Trap**
-* **Chapter 10: Deleveraging and Credit Crunch**
-* **Chapter 11: Shortage of “Safe Assets”**
+* [Chapter 9: Liquidity Trap](./code/Chapter_09.tex)
+* [Chapter 10: Deleveraging and Credit Crunch](./code/Chapter_10.tex)
+* [Chapter 11: Shortage of “Safe Assets”](./code/Chapter_11.tex)
 
 ### Part IV: Inflation
-* **Chapter 12: The Inflation-Unemployment Trade-Off**
-* **Chapter 13: Hyperinflation**
-  
+* [Chapter 12: The Inflation-Unemployment Trade-Off](./code/Chapter_12.tex)
+* [Chapter 13: Hyperinflation](./code/Chapter_13.tex)
+
 ### Part V: Conclusion
-* **The Future of Monetary Policy**
+* [The Future of Monetary Policy](./code/Chapter_14.tex)
 
 ---
 
