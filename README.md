@@ -38,7 +38,7 @@ To compile the slides and ensure all content renders correctly, you must downloa
 ### Part IV: Inflation
 * **Chapter 12: The Inflation-Unemployment Trade-Off**
 * **Chapter 13: Hyperinflation**
-* 
+  
 ### Part V: Conclusion
 * **The Future of Monetary Policy**
 
