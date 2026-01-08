@@ -12,7 +12,7 @@ This repository contains the complete set of lecture slides for lectures on Mone
 ## 🛠 Technical Requirements
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure. The project depends on the following components:
 
-* **Graphics & Figures:** All images and graphs are stored in relative paths (e.g., `/images` or `/figures`). These must be kept intact for the code to find them.
+* **Graphics & Figures:** All images and graphs are stored in relative paths (`code/images`). The images must be loaded in your LaTeX environment for them to appear.
 * **Bibliography:** The `references.bib` file must be loaded in your LaTeX environment for citations to appear.
 
 ---
