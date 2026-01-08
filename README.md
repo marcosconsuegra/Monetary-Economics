@@ -1,4 +1,4 @@
-![Header](images/code/Cover.png)
+![Header](code/images/Cover.png)
 # Monetary Economics and Policy: Lecture Materials
 
 **Based on:** *Monetary Economics and Policy: A Foundation for Modern Currency Systems* by Pierpaolo Benigno.  
