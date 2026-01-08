@@ -6,7 +6,7 @@
 ---
 
 ## 📌 Overview
-This repository contains the complete set of lecture slides for courses in Monetary Economics. We are making the **LaTeX source code** public to allow instructors and students to adapt, edit, and reorganize the material for their own educational use.
+This repository contains the complete set of lecture slides for lectures on Monetary Economics based on the book "Monetary Economics and Policy: A Foundation for Modern Currency Systems" by *Pierpaolo Benigno*. We are making the **LaTeX source code** public to allow instructors and students to adapt, edit, and reorganize the material for their own educational use.
 
 ## 🛠 Technical Requirements
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure. The project depends on the following components:
