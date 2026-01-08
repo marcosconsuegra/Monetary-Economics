@@ -1,25 +1,30 @@
-# Monetary-Economics
-Monetary Economics and Policy: Lecture Slides
-These slides provide a comprehensive set of teaching materials based on the book "Monetary Economics and Policy: A Foundation for Modern Currency Systems" by Pierpaolo Benigno.
+Monetary Economics and Policy: Lecture Materials
+Course slides based on: Monetary Economics and Policy: A Foundation for Modern Currency Systems by Pierpaolo Benigno.
 
-The materials were developed and designed by Severin Rothen and Marcos Consuegra Lopez.
+Authors: Severin Rothen and Marcos Consuegra Lopez.
 
-Project Purpose
-The goal of this project is to provide a high-quality educational resource for students and instructors in monetary economics. We have chosen to share the underlying LaTeX source code alongside the PDFs to allow users to adapt, reorder, or update the slides to fit their specific teaching requirements.
+Overview
+This repository contains the LaTeX source code and compiled PDFs for 14 chapters of lecture slides covering modern monetary systems and policy. These materials are intended for educational use and may be edited or adapted for specific teaching requirements.
 
-Content
-The materials cover 14 chapters following the structure of the textbook, ranging from the foundations of currency systems to modern monetary policy frameworks.
+Repository Structure
+To ensure the LaTeX code compiles correctly, the following directory structure must be maintained:
 
-Technical Requirements for Compilation
-If you intend to edit and recompile the LaTeX code, please note the following to avoid compilation errors:
+/chapters: Individual .tex files for Chapters 1–14.
 
-Complete File Structure: The .tex files rely on relative paths. You must download the entire directory, including the folders for graphs, images, and figures.
+/images: All graphs, figures, and external visual assets.
 
-Bibliography: The bibliography code is integrated via a central .bib file. Ensure this file is present in your working directory so that citations and references render correctly.
+references.bib: The central bibliography database.
 
-LaTeX Environment: These slides were built using the beamer class. We recommend using a modern LaTeX distribution (such as TeX Live or MiKTeX) or importing the full folder into Overleaf.
+main.tex (or your specific master file): The primary file for compilation.
 
-Compilation Sequence: For the bibliography to link properly, use the standard sequence: pdflatex -> bibtex -> pdflatex -> pdflatex.
+Technical Instructions
+To edit and compile these slides, you must have all files in the same working directory (or maintain the relative paths provided).
 
-Usage and Attribution
-You are welcome to use, distribute, and modify these slides for educational purposes. We ask that you maintain attribution to the original authors (Severin Rothen and Marcos Consuegra Lopez) and the textbook by Pierpaolo Benigno.
+Dependencies: The slides use the beamer class and require standard economic/math packages (e.g., amsmath, tikz).
+
+Bibliography: You must load the .bib file for citations to render.
+
+Compilation: Use pdflatex followed by bibtex to ensure all cross-references and citations are linked properly.
+
+Terms of Use
+These materials are provided for educational purposes. Modification and redistribution are permitted, provided that credit is given to the original authors (Severin Rothen and Marcos Consuegra Lopez) and reference is made to the textbook by Pierpaolo Benigno.
