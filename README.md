@@ -48,7 +48,7 @@ The material is organized into 14 chapters. Click the links below to access the 
 
 ## ⚖️ Usage & Attribution
 These materials are provided for educational purposes. You are free to modify and redistribute the code, provided that:
-1. Original attribution is given to **Severin Rothen** and **Marcos Consuegra Lopez**.
-2. Reference is made to the textbook by **Pierpaolo Benigno**.
-
-For the official version of these slides and further course information, visit [Professor Benigno's Website](URL_HERE).
+1. Reference is made to the textbook by **Pierpaolo Benigno**.
+2. Original attribution is given to **Severin Rothen** and **Marcos Consuegra Lopez**.
+3. 
+For the official version of these slides, visit also [Professor Benigno's Website](URL_HERE).
