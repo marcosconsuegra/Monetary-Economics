@@ -14,7 +14,6 @@ To compile the slides and ensure all content renders correctly, you must downloa
 
 * **Graphics & Figures:** All images and graphs are stored in the relative paths (e.g., `/images` or `/figures`). These must be kept intact for the code to find them.
 * **Bibliography:** The `references.bib` file must be loaded in your LaTeX environment for citations to appear.
-* **LaTeX Class:** These slides use the `beamer` class. 
 
 ### Compilation Instructions
 For the bibliography and cross-references to work, we recommend the following compilation sequence:
