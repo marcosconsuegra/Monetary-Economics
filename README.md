@@ -21,7 +21,7 @@ To compile the slides and ensure all content renders correctly, you must downloa
 The material is organized into 14 chapters. Click the links below to access the **LaTeX source code** for each chapter:
 
 ### Part I: Currency and Money
-* Chapter 1: The Value of Currency ([PDF](./pdf/Chapter1.pdf)/[.tex](./code/"Chapters as LaTeX"/Chapter1.tex))
+* Chapter 1: The Value of Currency ([PDF](./pdf/Chapter1.pdf)/[.tex](./code/.tex/Chapter1.tex))
 * [Chapter 2: Cash as a Medium of Exchange](./code/Chapter_02.tex)
 * [Chapter 3: Central Bank Digital Currency](./code/Chapter_03.tex)
 * [Chapter 4: Private Money](./code/Chapter_04.tex)
