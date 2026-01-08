@@ -1,30 +1,36 @@
-Monetary Economics and Policy: Lecture Materials
-Course slides based on: Monetary Economics and Policy: A Foundation for Modern Currency Systems by Pierpaolo Benigno.
+# Monetary Economics and Policy: Lecture Materials
 
-Authors: Severin Rothen and Marcos Consuegra Lopez.
+**Based on:** *Monetary Economics and Policy: A Foundation for Modern Currency Systems* by Pierpaolo Benigno.
 
-Overview
-This repository contains the LaTeX source code and compiled PDFs for 14 chapters of lecture slides covering modern monetary systems and policy. These materials are intended for educational use and may be edited or adapted for specific teaching requirements.
+**Authors:** Severin Rothen and Marcos Consuegra Lopez.
 
-Repository Structure
-To ensure the LaTeX code compiles correctly, the following directory structure must be maintained:
+---
 
-/chapters: Individual .tex files for Chapters 1–14.
+## 📌 Overview
+This repository contains the complete set of lecture slides (14 chapters) for a course in Monetary Economics. We are making the **LaTeX source code** public to allow instructors and students to adapt, edit, and reorganize the material for their own educational use.
 
-/images: All graphs, figures, and external visual assets.
+## 🛠 Technical Requirements
+To compile the slides and ensure all content renders correctly, you must download the entire folder structure. The project depends on the following components:
 
-references.bib: The central bibliography database.
+* **Graphics & Figures:** All images and graphs are stored in the relative paths (e.g., `/images` or `/figures`). These must be kept intact for the code to find them.
+* **Bibliography:** The `references.bib` file must be loaded in your LaTeX environment for citations to appear.
+* **LaTeX Class:** These slides use the `beamer` class. 
 
-main.tex (or your specific master file): The primary file for compilation.
+### Compilation Instructions
+For the bibliography and cross-references to work, we recommend the following compilation sequence:
+1. `pdflatex main.tex`
+2. `bibtex main`
+3. `pdflatex main.tex`
+4. `pdflatex main.tex`
 
-Technical Instructions
-To edit and compile these slides, you must have all files in the same working directory (or maintain the relative paths provided).
+## 📂 Content
+The material covers 14 chapters, following the progression of the textbook:
+* **Chapters 1–14:** [Insert Chapter Titles Here]
 
-Dependencies: The slides use the beamer class and require standard economic/math packages (e.g., amsmath, tikz).
+## ⚖️ Usage & Attribution
+These materials are provided for educational purposes. You are free to modify and redistribute the code, provided that:
+1.  Original attribution is given to **Severin Rothen** and **Marcos Consuegra Lopez**.
+2.  Reference is made to the textbook by **Pierpaolo Benigno**.
 
-Bibliography: You must load the .bib file for citations to render.
-
-Compilation: Use pdflatex followed by bibtex to ensure all cross-references and citations are linked properly.
-
-Terms of Use
-These materials are provided for educational purposes. Modification and redistribution are permitted, provided that credit is given to the original authors (Severin Rothen and Marcos Consuegra Lopez) and reference is made to the textbook by Pierpaolo Benigno.
+---
+*For the official version of these slides and further course information, visit [Professor Benigno's Website](URL_HERE).*
