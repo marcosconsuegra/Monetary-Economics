@@ -1,8 +1,9 @@
 ![Header](code/images/Cover-Banner.png)
 # Lecture Materials
 
-**Based on:** *Monetary Economics and Policy: A Foundation for Modern Currency Systems* by Pierpaolo Benigno.  
-**Authors:** Pierpaolo Benigno, Severin Rothen and Marcos Consuegra Lopez.
+**Based on:** *Monetary Economics and Policy: A Foundation for Modern Currency Systems* by Pierpaolo Benigno.
+**Get the Book:** [Princeton University Press](https://press.princeton.edu/books/hardcover/9780691262642/monetary-economics-and-policy) |[Princeton University Press](https://www.amazon.com/Monetary-Economics-Policy-Foundation-Currency/dp/0691262640/ref=sr_1_3?dib=eyJ2IjoiMSJ9.BnDgaAdZJ9QXQOg7jfYG7fwDZQzOvGY-suFQZKPmwYTqmU3FWd-AO7YxnubK0Pwc.58CLJVpMjjn5znGw7Yup5ztMq1vatAvMl0L9L_y7abs&dib_tag=se&qid=1768125138&refinements=p_27%3APierpaolo+Benigno&s=books&sr=1-3)
+**Authors:** Pierpaolo Benigno, Marcos Consuegra Lopez and Severin Rothen.
 
 ---
 
