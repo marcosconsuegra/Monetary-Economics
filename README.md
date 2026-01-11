@@ -18,13 +18,6 @@ This repository contains the complete set of lecture slides (14 chapters) for co
 ## 🛠 Technical Requirements
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
 
----
-
-## 🛠 Technical Requirements
-The project depends on the following components to render correctly:
-
-* **Graphics & Figures:** All images and graphs are stored in relative paths (`code/images`). These must be keptGreen Button on Top). The project depends on the following components:
-
 * **Graphics & Figures:** All images and graphs are stored in relative paths (`code/images`). These must be kept intact for the code to find them.
 * **Bibliography:** The `references.bib` file must be loaded in your LaTeX environment for citations to appear.
 
