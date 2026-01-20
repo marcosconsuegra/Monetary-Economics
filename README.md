@@ -51,10 +51,11 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
 
 ### 💻 Recommended Compilation Environments
-Based on testing, the following two methods are the most reliable for compiling these files. Other online LaTeX editors may struggle with the project structure:
+All chapters have been verified to compile perfectly using the following environments. Note that some standard online providers may struggle with the file complexity, so we recommend:
 
-1.  **Online:** [TexPage](https://www.texpage.com/) (A free online platform where all chapters have been verified to run perfectly).
-2.  **Local:** [MiKTeX](https://miktex.org/) + [TeXstudio](https://www.texstudio.org/) (Distributor + Engine).
+1.  **TexPage:** (Free online platform) – Works perfectly.
+2.  **Overleaf Pro:** The paid/professional version of Overleaf successfully compiles the project.
+3.  **Local Compilation:** [MiKTeX](https://miktex.org/) + [TeXstudio](https://www.texstudio.org/) (Distributor + Engine).
 
 ### 📁 Dependencies
 * **Graphics & Figures:** All images and graphs needed to compile a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
