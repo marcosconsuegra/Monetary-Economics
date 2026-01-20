@@ -48,17 +48,17 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 ---
 
 ## 🛠 Technical Requirements
-To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
+To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green **Code** button at the top right of this page and select **Download ZIP**).
 
 ### 💻 Recommended Compilation Environments
 All chapters have been verified to compile perfectly using the following environments:
 
-1.  **Free:** [TeXPage](https://www.texpage.com/) – Works perfectly.
-2.  **Paid:** [Overleaf](https://www.overleaf.com/) – The paid version of Overleaf also successfully compiles the project.
-3.  **Local Compilation:** [MiKTeX](https://miktex.org/) + [TeXstudio](https://www.texstudio.org/) (Distributor + Engine).
+1.  **Free Online:** [TeXPage](https://www.texpage.com/) – Works perfectly for this project structure.
+2.  **Paid Online:** [Overleaf](https://www.overleaf.com/) – The professional/premium version of Overleaf successfully handles the compilation time requirements.
+3.  **Local Compilation:** [MiKTeX](https://miktex.org/) (Distribution) + [TeXstudio](https://www.texstudio.org/) (Editor).
 
 ### 📁 Dependencies
-* **Graphics & Figures:** All images and graphs needed to compile a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
+* **Graphics & Figures:** All images and graphs needed for a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
 * **Bibliography:** The `sources.bib` file must be loaded in your LaTeX environment for citations to appear.
 * **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for the title slides to render correctly.
 
