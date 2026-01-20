@@ -15,12 +15,6 @@
 ## 📌 Overview
 This repository contains the complete set of lecture slides (14 chapters) for courses in Monetary Economics. We are making the **LaTeX source code** public to allow instructors and students to adapt, edit, and reorganize the material for their own educational use.
 
-## 🛠 Technical Requirements
-To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
-
-* **Graphics & Figures:** All images and graphs are stored in relative paths (`code/images`). These must be kept intact for the code to find them.
-* **Bibliography:** The `references.bib` file must be loaded in your LaTeX environment for citations to appear.
-
 ---
 
 ## 📂 Content
@@ -50,6 +44,15 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 
 ### Part V: Conclusion
 * **Chapter 14:** The Future of Monetary Policy ([PDF](./pdf/Chapter14.pdf) | [.tex](./code/tex/Chapter14.tex))
+
+---
+
+## 🛠 Technical Requirements
+To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
+
+* **Graphics & Figures:** All images and graphs needed to compile a specific are stored within the Chapter's folder.
+* **Bibliography:** The `sources.bib` file must be loaded in your LaTeX environment for citations to appear.
+* **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for citations to appear.
 
 ---
 
