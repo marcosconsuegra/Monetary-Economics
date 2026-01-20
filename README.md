@@ -53,8 +53,8 @@ To compile the slides and ensure all content renders correctly, you must downloa
 ### 💻 Recommended Compilation Environments
 All chapters have been verified to compile perfectly using the following environments:
 
-1.  **Free Online:** [TeXPage](https://www.texpage.com/) – Works perfectly for this project structure.
-2.  **Paid Online:** [Overleaf](https://www.overleaf.com/) – The professional/premium version of Overleaf successfully handles the compilation time requirements.
+1.  **Free Online:** [TeXPage](https://www.texpage.com/) – Works perfectly.
+2.  **Paid Online:** [Overleaf](https://www.overleaf.com/) – The paid versions of Overleaf successfully compile the chapters.
 3.  **Local Compilation:** [MiKTeX](https://miktex.org/) (Distribution) + [TeXstudio](https://www.texstudio.org/) (Editor).
 
 ### 📁 Dependencies
