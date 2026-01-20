@@ -51,7 +51,7 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
 
 ### 💻 Recommended Compilation Environments
-All chapters have been verified to compile perfectly using the following environments. Note that some standard online providers may struggle with the file complexity, so we recommend:
+All chapters have been verified to compile perfectly using the following environments:
 
 1.  **TexPage:** (Free online platform) – Works perfectly.
 2.  **Overleaf:** The paid version of Overleaf also successfully compiles the project.
