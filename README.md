@@ -36,15 +36,14 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 ### Part III: Crisis Models
 * **Chapter 9:** Liquidity Trap ([PDF](./pdf/Chapter%209%20-%20Liquidity%20Trap.pdf) | [.tex](./code/Chapter%209%20-%20Liquidity%20Trap/Chapter9.tex))
 * **Chapter 10:** Deleveraging and Credit Crunch ([PDF](./pdf/Chapter%2010%20-%20Deleveraging%20and%20Credit%20Crunch.pdf) | [.tex](./code/Chapter%2010%20-%20Deleveraging%20and%20Credit%20Crunch/Chapter10.tex))
-* **Chapter 11:** Shortage of “Safe Assets” ([PDF](./pdf/Chapter%2011%20-%20Shortage%20of%20“Safe%20Assets”.pdf) | [.tex](./code/Chapter%2011%20-%20Shortage%20of%20“Safe%20Assets”/Chapter11.tex))
+* **Chapter 11:** Shortage of “Safe Assets” (*in progress*)
 
 ### Part IV: Inflation
-* **Chapter 12:** The Inflation-Unemployment Trade-Off ([PDF](./pdf/Chapter%2012%20-%20The%20Inflation-Unemployment%20Trade-Off.pdf) | [.tex](./code/Chapter%2012%20-%20The%20Inflation-Unemployment%20Trade-Off/Chapter12.tex))
-* **Chapter 13:** Hyperinflation ([PDF](./pdf/Chapter%2013%20-%20Hyperinflation.pdf) | [.tex](./code/Chapter%2013%20-%20Hyperinflation/Chapter13.tex))
+* **Chapter 12:** The Inflation-Unemployment Trade-Off (*in progress*)
+* **Chapter 13:** Hyperinflation (*in progress*)
 
 ### Part V: Conclusion
-* **Chapter 14:** The Future of Monetary Policy ([PDF](./pdf/Chapter%2014%20-%20The%20Future%20of%20Monetary%20Policy.pdf) | [.tex](./code/Chapter%2014%20-%20The%20Future%20of%20Monetary%20Policy/Chapter14.tex))
-
+* **Chapter 14:** The Future of Monetary Policy (*in progress*)
 ---
 
 ## 🛠 Technical Requirements
