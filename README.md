@@ -22,35 +22,35 @@ This repository contains the complete set of lecture slides (14 chapters) for co
 The material is organized into 14 chapters. You can access the **PDFs** for viewing or the **.tex** files for editing:
 
 ### Part I: Currency and Money
-* **Chapter 1:** The Value of Currency ([PDF](./pdf/Chapter1.pdf) | [.tex](./code/tex/Chapter1.tex))
-* **Chapter 2:** Cash as a Medium of Exchange ([PDF](./pdf/Chapter2.pdf) | [.tex](./code/tex/Chapter2.tex))
-* **Chapter 3:** Central Bank Digital Currency ([PDF](./pdf/Chapter3.pdf) | [.tex](./code/tex/Chapter3.tex))
-* **Chapter 4:** Private Money ([PDF](./pdf/Chapter4.pdf) | [.tex](./code/tex/Chapter4.tex))
+* **Chapter 1:** The Value of Currency ([PDF](./pdf/Chapter%201%20-%20The%20Value%20of%20Currency.pdf) | [.tex](./code/Chapter%201%20-%20The%20Value%20of%20Currency/Chapter1.tex))
+* **Chapter 2:** Cash as a Medium of Exchange ([PDF](./pdf/Chapter%202%20-%20Cash%20as%20a%20Medium%20of%20Exchange.pdf) | [.tex](./code/Chapter%202%20-%20Cash%20as%20a%20Medium%20of%20Exchange/Chapter2.tex))
+* **Chapter 3:** Central Bank Digital Currency ([PDF](./pdf/Chapter%203%20-%20Central%20Bank%20Digital%20Currency.pdf) | [.tex](./code/Chapter%203%20-%20Central%20Bank%20Digital%20Currency/Chapter3.tex))
+* **Chapter 4:** Private Money ([PDF](./pdf/Chapter%204%20-%20Private%20Money.pdf) | [.tex](./code/Chapter%204%20-%20Private%20Money/Chapter4.tex))
 
 ### Part II: Stabilization Policies
-* **Chapter 5:** The Benchmark New Keynesian Model ([PDF](./pdf/Chapter5.pdf) | [.tex](./code/tex/Chapter5.tex))
-* **Chapter 6:** An AS-AD Graphical Analysis ([PDF](./pdf/Chapter6.pdf) | [.tex](./code/tex/Chapter6.tex))
-* **Chapter 7:** Inflation Targeting as an Optimal Policy ([PDF](./pdf/Chapter7.pdf) | [.tex](./code/tex/Chapter7.tex))
-* **Chapter 8:** NK Model with a Banking Sector ([PDF](./pdf/Chapter8.pdf) | [.tex](./code/tex/Chapter8.tex))
+* **Chapter 5:** The Benchmark New Keynesian Model ([PDF](./pdf/Chapter%205%20-%20The%20Benchmark%20New%20Keynesian%20Model.pdf) | [.tex](./code/Chapter%205%20-%20The%20Benchmark%20New%20Keynesian%20Model/Chapter5.tex))
+* **Chapter 6:** An AS-AD Graphical Analysis ([PDF](./pdf/Chapter%206%20-%20An%20AS-AD%20Graphical%20Analysis.pdf) | [.tex](./code/Chapter%206%20-%20An%20AS-AD%20Graphical%20Analysis/Chapter6.tex))
+* **Chapter 7:** Inflation Targeting as an Optimal Policy ([PDF](./pdf/Chapter%207%20-%20Inflation%20Targeting%20as%20an%20Optimal%20Policy.pdf) | [.tex](./code/Chapter%207%20-%20Inflation%20Targeting%20as%20an%20Optimal%20Policy/Chapter7.tex))
+* **Chapter 8:** NK Model with a Banking Sector ([PDF](./pdf/Chapter%208%20-%20NK%20Model%20with%20a%20Banking%20Sector.pdf) | [.tex](./code/Chapter%208%20-%20NK%20Model%20with%20a%20Banking%20Sector/Chapter8.tex))
 
 ### Part III: Crisis Models
-* **Chapter 9:** Liquidity Trap ([PDF](./pdf/Chapter9.pdf) | [.tex](./code/tex/Chapter9.tex))
-* **Chapter 10:** Deleveraging and Credit Crunch ([PDF](./pdf/Chapter10.pdf) | [.tex](./code/tex/Chapter10.tex))
-* **Chapter 11:** Shortage of “Safe Assets” ([PDF](./pdf/Chapter11.pdf) | [.tex](./code/tex/Chapter11.tex))
+* **Chapter 9:** Liquidity Trap ([PDF](./pdf/Chapter%209%20-%20Liquidity%20Trap.pdf) | [.tex](./code/Chapter%209%20-%20Liquidity%20Trap/Chapter9.tex))
+* **Chapter 10:** Deleveraging and Credit Crunch ([PDF](./pdf/Chapter%2010%20-%20Deleveraging%20and%20Credit%20Crunch.pdf) | [.tex](./code/Chapter%2010%20-%20Deleveraging%20and%20Credit%20Crunch/Chapter10.tex))
+* **Chapter 11:** Shortage of “Safe Assets” ([PDF](./pdf/Chapter%2011%20-%20Shortage%20of%20“Safe%20Assets”.pdf) | [.tex](./code/Chapter%2011%20-%20Shortage%20of%20“Safe%20Assets”/Chapter11.tex))
 
 ### Part IV: Inflation
-* **Chapter 12:** The Inflation-Unemployment Trade-Off ([PDF](./pdf/Chapter12.pdf) | [.tex](./code/tex/Chapter12.tex))
-* **Chapter 13:** Hyperinflation ([PDF](./pdf/Chapter13.pdf) | [.tex](./code/tex/Chapter13.tex))
+* **Chapter 12:** The Inflation-Unemployment Trade-Off ([PDF](./pdf/Chapter%2012%20-%20The%20Inflation-Unemployment%20Trade-Off.pdf) | [.tex](./code/Chapter%2012%20-%20The%20Inflation-Unemployment%20Trade-Off/Chapter12.tex))
+* **Chapter 13:** Hyperinflation ([PDF](./pdf/Chapter%2013%20-%20Hyperinflation.pdf) | [.tex](./code/Chapter%2013%20-%20Hyperinflation/Chapter13.tex))
 
 ### Part V: Conclusion
-* **Chapter 14:** The Future of Monetary Policy ([PDF](./pdf/Chapter14.pdf) | [.tex](./code/tex/Chapter14.tex))
+* **Chapter 14:** The Future of Monetary Policy ([PDF](./pdf/Chapter%2014%20-%20The%20Future%20of%20Monetary%20Policy.pdf) | [.tex](./code/Chapter%2014%20-%20The%20Future%20of%20Monetary%20Policy/Chapter14.tex))
 
 ---
 
 ## 🛠 Technical Requirements
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
 
-* **Graphics & Figures:** All images and graphs needed to compile a specific are stored within the Chapter's folder.
+* **Graphics & Figures:** All images and graphs needed to compile a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
 * **Bibliography:** The `sources.bib` file must be loaded in your LaTeX environment for citations to appear.
 * **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for citations to appear.
 
