@@ -50,9 +50,16 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 ## 🛠 Technical Requirements
 To compile the slides and ensure all content renders correctly, you must download the entire folder structure (Click the green "Code" button at the top right of this page and select "Download ZIP").
 
+### 💻 Recommended Compilation Environments
+Based on testing, the following two methods are the most reliable for compiling these files. Other online LaTeX editors may struggle with the project structure:
+
+1.  **Online:** [TexPage](https://www.texpage.com/) (A free online platform where all chapters have been verified to run perfectly).
+2.  **Local:** [MiKTeX](https://miktex.org/) + [TeXstudio](https://www.texstudio.org/) (Distributor + Engine).
+
+### 📁 Dependencies
 * **Graphics & Figures:** All images and graphs needed to compile a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
 * **Bibliography:** The `sources.bib` file must be loaded in your LaTeX environment for citations to appear.
-* **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for citations to appear.
+* **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for the title slides to render correctly.
 
 ---
 
