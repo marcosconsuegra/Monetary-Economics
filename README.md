@@ -54,7 +54,7 @@ To compile the slides and ensure all content renders correctly, you must downloa
 All chapters have been verified to compile perfectly using the following environments. Note that some standard online providers may struggle with the file complexity, so we recommend:
 
 1.  **TexPage:** (Free online platform) – Works perfectly.
-2.  **Overleaf Pro:** The paid/professional version of Overleaf successfully compiles the project.
+2.  **Overleaf:** The paid version of Overleaf also successfully compiles the project.
 3.  **Local Compilation:** [MiKTeX](https://miktex.org/) + [TeXstudio](https://www.texstudio.org/) (Distributor + Engine).
 
 ### 📁 Dependencies
