@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="code/images/Cover-Banner.png" alt="Monetary Economics Banner">
+  <img width="100%" src="code/Cover-Banner.png" alt="Monetary Economics Banner">
 </p>
 
 # Lecture Materials
