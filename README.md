@@ -68,5 +68,3 @@ These materials are provided for educational purposes. You are free to modify an
 1. Reference is made to the textbook by **Pierpaolo Benigno**.
 2. Original attribution for the slides is given to **Marcos Consuegra Lopez** and **Severin Rothen**.
 3. Any redistributed version clearly indicates if changes were made to the original content.
-
-For the official version of these slides, visit [Professor Benigno's Website](https://benigno.ch/).
