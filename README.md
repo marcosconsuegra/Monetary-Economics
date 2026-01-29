@@ -35,8 +35,8 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 
 ### Part III: Crisis Models
 * **Chapter 9:** Liquidity Trap ([PDF](./pdf/Chapter%209%20-%20Liquidity%20Trap.pdf) | [.tex](./code/Chapter%209%20-%20Liquidity%20Trap/Chapter9.tex))
-* **Chapter 10:** Deleveraging and Credit Crunch ([PDF](./pdf/Chapter%2010%20-%20Deleveraging%20and%20Credit%20Crunch.pdf) | [.tex](./code/Chapter%2010%20-%20Deleveraging%20and%20Credit%20Crunch/Chapter10.tex))
-* **Chapter 11:** Shortage of “Safe Assets” ([PDF](./pdf/Chapter%2011%20-%20Deleveraging%20and%20Credit%20Crunch.pdf) | [.tex](./code/Chapter%2011%20-%20Deleveraging%20and%20Credit%20Crunch/Chapter10.tex))
+* **Chapter 10:** Deleveraging and Credit Crunch ([PDF](./pdf/Chapter2010%20-%20Deleveraging%20and%20Credit%20Crunch.pdf) | [.tex](./code/Chapter2010%20-%20Deleveraging%20and%20Credit%20Crunch/Chapter10.tex))
+* **Chapter 11:** Shortage of “Safe Assets” ([PDF](./pdf/Chapter2011%20-%20Deleveraging%20and%20Credit%20Crunch.pdf) | [.tex](./code/Chapter2011%20-%20Deleveraging%20and%20Credit%20Crunch/Chapter10.tex))
 
 ### Part IV: Inflation
 * **Chapter 12:** The Inflation-Unemployment Trade-Off (*in progress*)
