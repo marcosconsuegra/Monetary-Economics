@@ -59,7 +59,7 @@ All chapters have been verified to compile perfectly using the following environ
 ### 📁 Dependencies
 * **Graphics & Figures:** All images and graphs needed for a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
 * **Bibliography:** The `sources.bib` file must be loaded in your LaTeX environment for citations to appear.
-* **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for the title slides to render correctly.
+* **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for the title slide to render correctly.
 
 ---
 
