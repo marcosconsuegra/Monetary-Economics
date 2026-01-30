@@ -57,7 +57,7 @@ All chapters have been verified to compile perfectly using the following environ
 3.  **Local Compilation:** [MiKTeX](https://miktex.org/) (Distribution) + [TeXstudio](https://www.texstudio.org/) (Editor).
 
 ### 📁 Dependencies
-* **Graphics & Figures:** All images and graphs needed for a specific chapter are stored within that chapter's individual folder inside the `code/` directory.
+* **Graphics & Figures:** All images and graphs needed are stored within each chapter's individual folder inside the `code/` directory.
 * **Bibliography:** The `sources.bib` file must be loaded in your LaTeX environment for citations to appear.
 * **Cover:** The `Cover.png` picture must be loaded in your LaTeX environment for the title slide to render correctly.
 
