@@ -31,7 +31,7 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 * **Chapter 5:** The Benchmark New Keynesian Model ([PDF](./pdf/Chapter%205%20-%20The%20Benchmark%20New%20Keynesian%20Model.pdf) | [.tex](./code/Chapter%205%20-%20The%20Benchmark%20New%20Keynesian%20Model/Chapter5.tex))
 * **Chapter 6:** An AS-AD Graphical Analysis ([PDF](./pdf/Chapter%206%20-%20An%20AS-AD%20Graphical%20Analysis.pdf) | [.tex](./code/Chapter%206%20-%20An%20AS-AD%20Graphical%20Analysis/Chapter6.tex))
 * **Chapter 7:** Inflation Targeting as an Optimal Policy ([PDF](./pdf/Chapter%207%20-%20Inflation%20Targeting%20as%20an%20Optimal%20Policy.pdf) | [.tex](./code/Chapter%207%20-%20Inflation%20Targeting%20as%20an%20Optimal%20Policy/Chapter7.tex))
-* **Chapter 8:** NK Model with a Banking Sector ([PDF](./pdf/Chapter%208%20-%20NK%20Model%20with%20a%20Banking%20Sector.pdf) | [.tex](./code/Chapter%208%20-%20NK%20Model%20with%20a%20Banking%20Sector))
+* **Chapter 8:** NK Model with a Banking Sector ([PDF](./pdf/Chapter%208%20-%20NK%20Model%20with%20a%20Banking%20Sector.pdf) | [.tex](./code/Chapter%208%20-%20NK%20Model%20with%20a%20Banking%20Sector/Chapter8.tex))
 
 ### Part III: Crisis Models
 * **Chapter 9:** Liquidity Trap ([PDF](./pdf/Chapter%209%20-%20Liquidity%20Trap.pdf) | [.tex](./code/Chapter%209%20-%20Liquidity%20Trap/Chapter9.tex))
