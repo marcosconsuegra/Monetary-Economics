@@ -6,7 +6,7 @@
 
 **Based on:** *Monetary Economics and Policy: A Foundation for Modern Currency Systems* by Pierpaolo Benigno.
 
-**Get the Book:** [Princeton University Press](https://press.princeton.edu/books/hardcover/9780691262642/monetary-economics-and-policy) | [Amazon](https://www.amazon.com/Monetary-Economics-Policy-Foundation-Currency/dp/0691262640/).
+**Order the Book:** [Princeton University Press](https://press.princeton.edu/books/hardcover/9780691262642/monetary-economics-and-policy) | [Amazon](https://www.amazon.com/Monetary-Economics-Policy-Foundation-Currency/dp/0691262640/).
 
 **Authors:** Pierpaolo Benigno, Marcos Consuegra Lopez, and Severin Rothen.
 
