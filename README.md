@@ -39,11 +39,11 @@ The material is organized into 14 chapters. You can access the **PDFs** for view
 * **Chapter 11:** Shortage of “Safe Assets” ([PDF](./pdf/Chapter11%20-%20Shortage%20of%20Safe%20Assets.pdf) | [.tex](./code/Chapter11%20-%20Shortage%20of%20Safe%20Assets/Chapter11.tex))
 
 ### Part IV: Inflation
-* **Chapter 12:** The Inflation-Unemployment Trade-Off (*in progress*)
-* **Chapter 13:** Hyperinflation (*in progress*)
+* **Chapter 12:** The Inflation-Unemployment Trade-Off ([PDF](./pdf/Chapter12%20-%20The%20Inflation%20Unemployment%20Trade%20Off.pdf) | [.tex](./code/Chapter12%20-%20The%20Inflation%20Unemployment%20Trade%20Off/Chapter12.tex))
+* **Chapter 13:** Hyperinflation ([PDF](./pdf/Chapter13%20-%20Hyperinflation.pdf) | [.tex](./code/Chapter13%20-%20Hyperinflation/Chapter13.tex))
 
 ### Part V: Conclusion
-* **Chapter 14:** The Future of Monetary Policy (*in progress*)
+* **Chapter 14:** The Future of Monetary Policy ([PDF](./pdf/Chapter14%20-%20The%20Future%20of%20Monetary%20Policy.pdf) | [.tex](./code/Chapter14%20-%20The%20Future%20of%20Monetary%20Policy/Chapter%2014.tex))
 ---
 
 ## 🛠 Technical Requirements
