@@ -240,7 +240,7 @@ Obverse: \textit{giglio}; Reverse: Saint John the Baptist.}
 
 \begin{itemize}
   \item \textbf{Example – The U.S. Dollar under the Gold Standard}  
-  Formally established by the \textbf{Gold Standard Act of 1900} and maintained until \textbf{1933}.
+  formally established by the \textbf{Gold Standard Act of 1900} and maintained until \textbf{1933}.
   \begin{itemize}
     \item Each dollar was defined as \textbf{23.22 grains of gold} ($\approx$ 1.5046 g).
     \item The dollar was a \textbf{liability of the U.S. Treasury} and an \textbf{asset for the bearer}.
@@ -767,113 +767,173 @@ C_t=Y.
 \end{center}
 
 \end{frame}
+
+
 \begin{frame}{Equilibrium Condition: Fisher Equation}
+\small
+
 \begin{itemize}
-  \item Substituting $C_t = Y$ into the Euler equation \eqref{eq:euler} delivers the Fisher equation:
+  \item In equilibrium, goods-market clearing implies
+  \[
+  C_t = Y.
+  \]
+  \item Substituting $C_t=Y$ into the Euler equation~\eqref{eq:euler} gives the Fisher equation.
 \end{itemize}
 
-\vspace{0.25cm}
+\vspace{0.2cm}
 \noindent\textbf{Fisher Equation}
 \begin{equation}
-\underbrace{1 + i_t}_{\text{\scriptsize nominal rate}}
+\underbrace{1+i_t}_{\text{\scriptsize gross nominal interest rate}}
 \;=\;
-\underbrace{\frac{1}{\beta}}_{\text{\scriptsize real rate}}
-\;\underbrace{\frac{P_{t+1}}{P_t}}_{\text{\scriptsize inflation}},
+\underbrace{\frac{1}{\beta}}_{\text{\scriptsize gross real interest rate}}
+\;\underbrace{\frac{P_{t+1}}{P_t}}_{\text{\scriptsize gross inflation}},
 \label{eq: Fisher}
 \end{equation}
 
-
 \begin{itemize}
-  \item This condition links the nominal interest rate to the real rate and to next period inflation.
-  \item Note: with a constant endowment, the real interest rate is constant and equal to $1/\beta$.
+  \item This condition links the nominal interest rate to the real interest rate and expected inflation.
+  \item Since the endowment is constant, the gross real interest rate is constant and equal to $1/\beta$.
 \end{itemize}
+
 \end{frame}
 
 \begin{frame}{Equilibrium Condition: Intertemporal Resource Constraint}
+\small
+
 \begin{itemize}
-  \item Using $C_t=Y$ and the Fisher equation \eqref{eq: Fisher}, the intertemporal budget constraint \eqref{eq: IBCCE} can be written as the:
+  \item Using $C_t=Y$ together with the Fisher equation~\eqref{eq: Fisher}, the household intertemporal budget constraint~\eqref{eq: IBCCE} becomes:
 \end{itemize}
+
+\vspace{0.2cm}
 \noindent\textbf{Intertemporal Resource Constraint}
-\vspace{0.25cm}
 \begin{equation}
-  \frac{B_{t_{0}-1} + X_{t_{0}-1}}{P_{t_{0}}}
-  = \sum_{t=t_{0}}^{\infty} \beta^{\,t-t_{0}} \frac{T_t}{P_t}
-  .\label{eq: IBCTT}
+\frac{B_{t_0-1}+X_{t_0-1}}{P_{t_0}}
+=
+\sum_{t=t_0}^{\infty}\beta^{\,t-t_0}\frac{T_t}{P_t}.
+\label{eq: IBCTT}
 \end{equation}
 
-\vspace{0.25cm}
 \begin{itemize}
-  \item \textbf{LHS:} Real net government liabilities to the private sector at $t_0$ 
-        (including both Treasury debt and CB liabilities).
-  \item \textbf{RHS:} Present-discounted value of real taxes collected.
-  \item The intertemporal resource constraint is not a solvency constraint but an \textbf{equilibrium condition}.  
+  \item \textbf{Left-hand side:} the real value of government liabilities held by the private sector at time $t_0$.
+  \item \textbf{Right-hand side:} the present discounted value of real taxes.
+  \item This is \textbf{not} a solvency condition for the government as a whole; it is an \textbf{equilibrium condition}.
 \end{itemize}
+
 \end{frame}
+
+
 
 \begin{frame}{Equilibrium Condition: Treasury Solvency}
+\small
+
 \begin{itemize}
-    \item The Treasury’s solvency condition is given by \eqref{DebtBB}, stated with equality and using the Fisher equation \eqref{eq: Fisher}:
+  \item The Treasury, unlike the central bank, cannot issue claims that are redeemable in units of themselves.
+  \item Therefore, Treasury debt must satisfy its own solvency condition.
+  \item Using~\eqref{DebtBB} with equality and the Fisher equation~\eqref{eq: Fisher}, we obtain:
 \end{itemize}
 
-\vspace{0.35cm}
+\vspace{0.2cm}
 \noindent\textbf{Treasury Solvency Condition}
 \begin{equation}
-  \frac{B_{t_0-1}^{F}}{P_{t_0}}
-  = \sum_{t=t_0}^{\infty} \beta^{\,t-t_0}
-    \left(\frac{T_t}{P_t} + \frac{T_t^{C}}{P_t} \right).
-    \label{eq: Treasury Solvency}
+\frac{B_{t_0-1}^{F}}{P_{t_0}}
+=
+\sum_{t=t_0}^{\infty}\beta^{\,t-t_0}
+\left(\frac{T_t}{P_t}+\frac{T_t^{C}}{P_t}\right).
+\label{eq: TreasurySolvency}
 \end{equation}
-\vspace{0.35cm}
+
 \begin{itemize}
-    \item Treasury solvency requires that the stock of outstanding real debt be backed by the present discounted value of real taxes at any equilibrium path of prices and CB remittances.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Equilibrium Conditions: Budget Constraints}
-
-\vspace{0.35cm}
-\noindent\textbf{CB Budget Constraint in Equilibrium:}
-\begin{equation}
-\frac{X_{t}-B_{t}^{C}}{1+i_{t}} = X_{t-1} - B_{t-1}^{C} + T_{t}^{C} 
-.\label{FlowG}
-\end{equation}
-\vspace{0.5cm}
-
-\noindent\textbf{Treasury Budget Constraint in Equilibrium:}
-\begin{equation}
-\frac{B_{t}^{F}}{1+i_{t}} = B_{t-1}^{F} - T_{t} - T_{t}^{C}.  
-\label{TBC}
-\end{equation}
-
-\end{frame}
-
-\begin{frame}{Equilibrium Definition}
-
-\textbf{Equilibrium:}  
-A set of sequences 
-\[
-\{ P_t, i_t, X_t, B_t^C, T_t^C, B_t^F, T_t, B_t \}_{t=t_0}^\infty,
-\]
-with $\{ P_t, i_t, X_t, B_t^C \}_{t=t_0}^\infty \geq 0$ that satisfies:
-\begin{itemize}
-  \item Bond market clearing (\ref{eq: Bonds})
-  \item Euler equation (\ref{eq: Fisher})
-  \item Intertemporal resource constraint (\ref{eq: IBCTT})
-  \item Government budget constraints (\ref{FlowG}), (\ref{TBC})
+  \item Treasury solvency requires the real value of outstanding debt to be backed by the present discounted value of real taxes and CB remittances.
 \end{itemize}
 
-given initial conditions $B_{t_0-1}^C, B_{t_0-1}^F, X_{t_0-1}$.  
-Taxes $\{T_t\}_{t=t_0}^\infty$ must satisfy the solvency condition (\ref{eq: Treasury Solvency}) for any equilibrium sequences $\{P_t,T_t^C\}_{t=t_0}^\infty$, given the initial condition $B_{t_0-1}^F$ .
 \end{frame}
-\begin{frame}{Government Policy}
+
+\begin{frame}{Equilibrium Conditions: Government Budget Constraints}
+\small
+
 \begin{itemize}
-\item Equilibrium characterization shows 4 degrees of freedom, which are the policy choices that the government can take.
-  \vspace{0.3cm}
-  \item CB chooses sequences $\{ i_t, X_t, T_t^C \}_{t=t_0}^\infty$, with asset holdings adjusting via (\ref{FlowG}).
+  \item In equilibrium, the central bank and the Treasury must satisfy their respective flow budget constraints period by period.
+\end{itemize}
+
+\vspace{0.2cm}
+\noindent\textbf{Central Bank Budget Constraint}
+\begin{equation}
+\frac{X_t-B_t^{C}}{1+i_t}
+=
+X_{t-1}-B_{t-1}^{C}+T_t^{C}.
+\label{eq: FlowG}
+\end{equation}
+
 \vspace{0.3cm}
-\item Treasury sets taxes $\{T_t\}_{t=t_0}^\infty$ to satisfy (\ref{eq: Treasury Solvency}) at \emph{any} equilibrium sequences for prices $\{P_t\}_{t=t_0}^\infty$ and CB remittances $\{T_t^C\}_{t=t_0}^\infty.$
+\noindent\textbf{Treasury Budget Constraint}
+\begin{equation}
+\frac{B_t^{F}}{1+i_t}
+=
+B_{t-1}^{F}-T_t-T_t^{C}.
+\label{eq: TBC}
+\end{equation}
+
+\begin{itemize}
+  \item These equations describe how liabilities, assets, taxes, and remittances evolve over time.
 \end{itemize}
+
 \end{frame}
+
+\begin{frame}{Competitive Equilibrium: Definition}
+\small
+
+Given initial conditions $B_{t_0-1}^{C}, B_{t_0-1}^{F}, X_{t_0-1}$, a \textbf{competitive equilibrium} is a set of sequences
+\[
+\{P_t,i_t,X_t,B_t^{C},T_t^{C},B_t^{F},T_t,B_t\}_{t=t_0}^{\infty},
+\]
+with
+\[
+\{P_t,i_t,X_t,B_t^{C}\}_{t=t_0}^{\infty}\ge 0,
+\]
+such that:
+
+\vspace{0.1cm}
+\begin{enumerate}
+  \item households optimize;
+  \item the Fisher equation \eqref{eq: Fisher}, the intertemporal resource constraint \eqref{eq: IBCTT}, and the government budget constraints \eqref{eq: FlowG}--\eqref{eq: TBC} hold;
+  \item markets clear:
+  \[
+  B_t^{F}=B_t^{C}+B_t,\qquad X_t^{C}=X_t,\qquad C_t=Y;
+  \]
+  \item the tax sequence $\{T_t\}_{t=t_0}^{\infty}$ satisfies Treasury solvency \eqref{eq: TreasurySolvency}, at each point in time, given that Treasury's debt follows (\ref{eq: TBC}).
+
+\end{enumerate}
+
+\end{frame}
+
+
+\begin{frame}{Government Policy and Degrees of Freedom}
+\small
+
+\begin{itemize}
+  \item The equilibrium characterization reveals \textbf{four policy degrees of freedom}.
+  
+  \vspace{0.2cm}
+  \item The central bank can choose the sequences
+  \[
+  \{i_t,\;X_t,\;T_t^{C}\}_{t=t_0}^{\infty},
+  \]
+  while its asset holdings adjust through~\eqref{eq: FlowG}.
+  
+  \vspace{0.2cm}
+  \item Given the paths of prices and CB remittances, the Treasury chooses the tax sequence
+  \[
+  \{T_t\}_{t=t_0}^{\infty}
+  \]
+  that satisfies the solvency condition~\eqref{eq: TreasurySolvency}.
+\end{itemize}
+
+\vspace{0.2cm}
+\textbf{Implication:}  
+Without a fully specified monetary and fiscal policy, the model does not determine a unique equilibrium price level.
+
+\end{frame}
+
 
 \begin{frame}{Monetary Policy Insights}
 \textbf{Key Insights:}
@@ -892,7 +952,7 @@ Taxes $\{T_t\}_{t=t_0}^\infty$ must satisfy the solvency condition (\ref{eq: Tre
 
 \begin{frame}{Value of the Currency: Limits of Interest-Rate Policy}
 \begin{itemize}
-    \item Interest-rate policy alone cannot determine the currency's value.
+    \item We show that interest-rate policy alone cannot determine the currency's value.
     \item Using the Fisher equation (\ref{eq: Fisher}), if the CB pegs $i_t = i$, only the rate of price changes is determined, i.e. $\frac{P_{t+1}}{P_{t}}$, not the price level itself.
     \item This indeterminacy result also holds with active policies reacting to deviations from a target $\bar{P}$ as the following:
 \end{itemize}
@@ -901,7 +961,7 @@ Taxes $\{T_t\}_{t=t_0}^\infty$ must satisfy the solvency condition (\ref{eq: Tre
         1 + i_t = \max \left\{ \frac{1}{\beta} \left( \frac{P_t}{\bar{P}} \right)^\phi, 1 \right\}, \quad \phi \ge 0.
     \end{equation}
 \begin{itemize}
-    \item In \eqref{eq: int_rule}, the interest rate is equal to the real rate $1/\beta$ and reacts with a coefficient $\phi$ to the ratio of the current price level with respect to the target $\bar{P}$, unless the zero lower bound is achieved.
+    \item In \eqref{eq: int_rule}, the interest rate is equal to the real rate $1/\beta$ and reacts with a coefficient $\phi$ to the ratio of the current price level with respect to the target $\bar{P}$, unless the zero lower bound binds.
 \end{itemize}
 \end{frame}
 
@@ -955,7 +1015,7 @@ If $P_t \le \beta^{1/\phi}\bar P$, the deflation rate is $\beta$ (with $0<\beta<
     \vspace{0.15cm}    
     \item In FTPL the CB \textbf{fully guarantees} treasury debt. Therefore, the solvency condition \eqref{DebtBB} no longer constraints the path of taxes.
     \vspace{0.15cm}
-    \item The government budget constraints are now consolidated, by using \eqref{CBBC1}, \eqref{BudgetT} and bond market clearing \eqref{eq: Bonds}:
+    \item The government budget constraints can be now consolidated, by using \eqref{CBBC1}, \eqref{BudgetT} and bond market clearing \eqref{eq: Bonds}:
     \end{itemize}
 \textbf{Consolidated Government Budget Constraint}
     \begin{equation} \label{eq: gov_budget}
@@ -966,7 +1026,7 @@ If $P_t \le \beta^{1/\phi}\bar P$, the deflation rate is $\beta$ (with $0<\beta<
 \begin{frame}{Equilibrium under FTPL}
 
 
-Given that tax policy is no longer constrained by solvency condition \eqref{eq: Treasury Solvency}, equilibrium is characterized by a set of sequences:
+Given that tax policy is no longer constrained by solvency condition \eqref{eq: TreasurySolvency}, equilibrium is characterized by a set of sequences:
 \[
 \{ i_t, P_t, X_t, T_t, B_t \}_{t=t_0}^\infty,
 \]
@@ -991,14 +1051,14 @@ Two policy instruments must be specified in addition to the interest rate:
 
 \begin{frame}{Constant Real Tax Policy}
 \begin{itemize}
-    \item The key factor in influencing the price level is the formulation of a tax policy.
+    \item Inspecting the intertemporal resource constraint (\ref{eq: IBCTT}), the key determinant of the price level is the formulation of a tax policy.
     \vspace{0.25cm}
 \item Consider the constant real tax policy:
     \begin{equation} \label{tax_policy}
     \frac{T_t}{P_t} = (1-\beta)\tau, \quad \tau>0.        
     \end{equation}
     \vspace{0.25cm}
-    \item Substituting into the intertemporal budget condition (\ref{eq: IBCTT}) gives:
+    \item Substituting into the intertemporal budget condition (\ref{eq: IBCTT}) implies:
     \begin{equation} \label{Price_Level}
      P_{t_0} = \frac{B_{t_0-1} + X_{t_0-1}}{\tau}.
     \end{equation}
@@ -1151,7 +1211,7 @@ Two policy instruments must be specified by the CB in addition to the interest r
         P_{t_0} = \frac{B_{t_0-1}^C - X_{t_0-1}}{\tau^C}.
     \end{equation}
     \vspace{0.25cm}
-    \item Price is positive if $B_{t_0-1}^C > X_{t_0-1}^C$, i.e., CB starts with positive net worth.
+    \item $P_{t_0}$ is positive if $B_{t_0-1}^C > X_{t_0-1}^C$, i.e., CB starts with positive net worth.
     \item Setting $\tau^C = (B_{t_0-1}^C - X_{t_0-1}) / \bar P$ pins $P_{t_0} = \bar P$, independently of $\phi$ in (\ref{eq: int_rule}).
     \vspace{0.25cm}
     \item Unlike FTPL, determination of the price level does not require cooperation between fiscal and monetary authorities.
@@ -1218,7 +1278,7 @@ Two policy instruments must be specified by the CB in addition to the interest r
 \begin{itemize}
     \item The CB cannot build net worth on its own $\rightarrow$ it must receive an initial transfer to ensure an initial positive net worth.
     \vspace{0.25cm}
-    \item Rewriting the CB's budget constraint \eqref{CBBC1} using the definition of net worth, $N_t^C$, via eq. \eqref{eq: NW}:
+    \item Rewriting the CB's budget constraint \eqref{CBBC1} using the definition of net worth, $N_t^C$, through \eqref{eq: NW}:
     \[
     N_t^C = N_{t-1}^C + \Psi_t^C - T_t^C, 
      \quad \text{with} \quad \Psi_t^C = i_{t-1} N_{t-1}^C.
@@ -1414,7 +1474,7 @@ where $Z_g(\cdot)$ is the derivative of $Z(\cdot)$ with respect to gold holdings
 
 \begin{itemize}
 \item Consider the case in which the CB does not back the treasury.
-    \item Starting from the interest-rate rule (\ref{eq: int_rule}) and equilibrium in goods, asset, and gold markets, together with the treasury solvency condition (\ref{eq: Treasury Solvency}) and $R_{t_0,t} = \beta^{t-t_0}$, we obtain using \eqref{eq: IBC_gold}:
+    \item Starting from the interest-rate rule (\ref{eq: int_rule}) and equilibrium in goods, asset, and gold markets, together with the treasury solvency condition (\ref{eq: TreasurySolvency}) and $R_{t_0,t} = \beta^{t-t_0}$, we obtain using \eqref{eq: IBC_gold}:
 \end{itemize}
 
 \begin{equation}
